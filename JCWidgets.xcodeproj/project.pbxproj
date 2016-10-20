@@ -10,6 +10,8 @@
 		4F7C992B1CE432650027BB97 /* JCWidgets.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7C992A1CE432650027BB97 /* JCWidgets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F7C99321CE432650027BB97 /* JCWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7C99271CE432650027BB97 /* JCWidgets.framework */; };
 		4F7C99371CE432650027BB97 /* JCWidgetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C99361CE432650027BB97 /* JCWidgetsTests.m */; };
+		4F7C99441CE432E00027BB97 /* SJPopoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7C99421CE432E00027BB97 /* SJPopoverView.h */; };
+		4F7C99451CE432E00027BB97 /* SJPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7C99431CE432E00027BB97 /* SJPopoverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		4F7C99311CE432650027BB97 /* JCWidgetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCWidgetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7C99361CE432650027BB97 /* JCWidgetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCWidgetsTests.m; sourceTree = "<group>"; };
 		4F7C99381CE432650027BB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F7C99421CE432E00027BB97 /* SJPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPopoverView.h; sourceTree = "<group>"; };
+		4F7C99431CE432E00027BB97 /* SJPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPopoverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4F7C992A1CE432650027BB97 /* JCWidgets.h */,
+				4F7C99411CE432E00027BB97 /* Popover */,
 				4F7C992C1CE432650027BB97 /* Info.plist */,
 			);
 			path = JCWidgets;
@@ -86,6 +91,15 @@
 			path = JCWidgetsTests;
 			sourceTree = "<group>";
 		};
+		4F7C99411CE432E00027BB97 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				4F7C99421CE432E00027BB97 /* SJPopoverView.h */,
+				4F7C99431CE432E00027BB97 /* SJPopoverView.m */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,6 +107,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7C99441CE432E00027BB97 /* SJPopoverView.h in Headers */,
 				4F7C992B1CE432650027BB97 /* JCWidgets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F7C99451CE432E00027BB97 /* SJPopoverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
